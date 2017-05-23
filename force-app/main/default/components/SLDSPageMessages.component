@@ -1,0 +1,19 @@
+<apex:component layout="none" controller="SLDSPageMessagesController">
+
+	<apex:repeat value="{!allPageMessagesMap}" var="alertTheme">
+
+		<div class="slds-notify slds-notify--alert slds-theme--{!alertTheme} slds-theme--alert-texture" role="alert">
+
+			<span class="slds-assistive-text">{!alertTheme}</span>
+
+			<h2> 
+				<apex:repeat value="{!allPageMessagesMap[alertTheme]}" var="message">
+					<apex:outputText value="{!message}" escape="false" /><br/>
+				</apex:repeat>
+			</h2>
+
+		</div>
+
+	</apex:repeat>
+
+</apex:component>

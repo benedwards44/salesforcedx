@@ -1,0 +1,36 @@
+<apex:component layout="none">
+
+	<apex:attribute name="includeQuery" type="Boolean" description="Control whether the component needs to include its own jQuery" default="true" required="false" />
+
+	<apex:outputText rendered="{!includeQuery}">
+		<apex:includeScript value="https://code.jquery.com/jquery-3.2.1.min.js" />
+	</apex:outputText>
+
+	<div class="slds-spinner_container slds-hide">
+		<div class="slds-spinner--brand slds-spinner slds-spinner--medium" aria-hidden="false" role="alert">
+			<div class="slds-spinner__dot-a"></div>
+			<div class="slds-spinner__dot-b"></div>
+		</div>
+	</div>
+	
+	<script>
+		function showSpinner() {
+			$('.slds-spinner_container').removeClass('slds-hide');
+			$('.slds-spinner_container').addClass('slds-show');	
+		
+			var winWidth = $(document).width();
+			var winHeight = $(document).height();
+			 
+			$('.slds-spinner_container').css({ 'width': winWidth,'height': winHeight });				   
+		}
+		 
+		function hideSpinner() {  
+					   
+			$('.slds-spinner_container').removeClass('slds-show');
+			$('.slds-spinner_container').addClass('slds-hide');	
+		} 
+	</script>
+
+	<apex:actionStatus id="loading" onstart="showSpinner();" onstop="hideSpinner();" />
+
+</apex:component>
