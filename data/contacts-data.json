@@ -1,0 +1,34 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Contact",
+                "referenceId": "contact1"
+            },
+            "FirstName": "Donald",
+            "LastName": "Trump",
+            "Email": "donald@whitehouse.gov",
+            "AccountId": "@devgroup"
+        },
+        {
+            "attributes": {
+                "type": "Contact",
+                "referenceId": "contact2"
+            },
+            "FirstName": "Snoop",
+            "LastName": "Dogg",
+            "Email": "snoop@doggpound.com",
+            "AccountId": "@devgroup"
+        },
+        {
+            "attributes": {
+                "type": "Contact",
+                "referenceId": "contact3"
+            },
+            "FirstName": "Ben",
+            "LastName": "Edwards",
+            "Email": "ben@edwards.nz",
+            "AccountId": "@devgroup"
+        }
+    ]    
+}
