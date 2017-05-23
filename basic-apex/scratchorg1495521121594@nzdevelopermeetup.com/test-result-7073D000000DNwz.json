@@ -1,0 +1,93 @@
+{
+    "summary": {
+        "outcome": "Passed",
+        "testsRan": 3,
+        "passing": 3,
+        "failing": 0,
+        "passRate": "100%",
+        "failRate": "0%",
+        "testStartTime": "May 23, 2017 6:32 PM",
+        "testExecutionTime": "173 ms",
+        "testTotalTime": "173 ms",
+        "commandTime": "4497 ms",
+        "testRunId": "7073D000000DNwz",
+        "hostname": "https://force-customization-5858-dev-ed.cs70.my.salesforce.com",
+        "orgId": "00D3D0000008fkgUAA",
+        "username": "scratchorg1495521121594@nzdevelopermeetup.com",
+        "userId": "0053D000000MB0LQAW"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v39.0/tooling/sobjects/ApexTestResult/07M3D000000PvtIUAS"
+            },
+            "Id": "07M3D000000PvtIUAS",
+            "QueueItemId": "7093D000000Cw4dQAC",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7073D000000DNwzQAG",
+            "MethodName": "testCreateContactFailure",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v39.0/tooling/sobjects/ApexClass/01p3D000000353aQAA"
+                },
+                "Id": "01p3D000000353aQAA",
+                "Name": "DXDemoControllerTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 71,
+            "FullName": "DXDemoControllerTest.testCreateContactFailure"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v39.0/tooling/sobjects/ApexTestResult/07M3D000000PvtJUAS"
+            },
+            "Id": "07M3D000000PvtJUAS",
+            "QueueItemId": "7093D000000Cw4dQAC",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7073D000000DNwzQAG",
+            "MethodName": "testCreateContactSuccess",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v39.0/tooling/sobjects/ApexClass/01p3D000000353aQAA"
+                },
+                "Id": "01p3D000000353aQAA",
+                "Name": "DXDemoControllerTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 90,
+            "FullName": "DXDemoControllerTest.testCreateContactSuccess"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v39.0/tooling/sobjects/ApexTestResult/07M3D000000PvtDUAS"
+            },
+            "Id": "07M3D000000PvtDUAS",
+            "QueueItemId": "7093D000000Cw4eQAC",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7073D000000DNwzQAG",
+            "MethodName": "testSLDSPageMessagesController",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v39.0/tooling/sobjects/ApexClass/01p3D000000353cQAA"
+                },
+                "Id": "01p3D000000353cQAA",
+                "Name": "SLDSPageMessagesControllerTest",
+                "NamespacePrefix": null
+            },
+            "RunTime": 12,
+            "FullName": "SLDSPageMessagesControllerTest.testSLDSPageMessagesController"
+        }
+    ]
+}

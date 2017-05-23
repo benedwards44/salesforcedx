@@ -1,0 +1,5 @@
+1..3
+ok 1 DXDemoControllerTest.testCreateContactFailure
+ok 2 DXDemoControllerTest.testCreateContactSuccess
+ok 3 SLDSPageMessagesControllerTest.testSLDSPageMessagesController
+# Use command "force:apex:test:report -i 7073D000000DNwz" to retrieve test results.

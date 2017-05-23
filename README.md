@@ -42,9 +42,31 @@ Open the scratch org.
 
     sfdx force:org:open --path one/one.app
 
+Load data
+
+	sfdx force:data:tree:import --plan data/data-plan.json
+
+View Data
+
+	sfdx force:data xxx
+
+Run Test Suite
+
+	sfdx force:testrunner:run --configfile test/test-runner-config.json
+
+
 ## Description of Files and Directories  
 
 * **sfdx-workspace.json**: Required by Salesforce DX. Configures your project workspace.  Use this file to specify the parameters that affect your Salesforce development project.
 * **config/workspace-scratch-def.json**: Sample file that shows how to define the shape of a scratch org.  You reference this file when you create your workspace scratch org with the force:org:create command.   
 * **force-app**: Directory that contains the source for the sample Force.com app and tests.   
 * **.project**:  Required by the Eclipse IDE.  Describes the Eclipse project. 
+
+
+## Example commands
+
+Create the org with alias
+	sfdx force:org:create -a DevMeetupOrg -s -f config/workspace-scratch-def.json
+
+Load data
+	
