@@ -102,15 +102,6 @@
                                             <apex:inputField value="{!newContact.Email}" styleClass="slds-input" html-placeholder="eg. donald@whitehouse.gov" required="true" />
                                         </div>
                                     </div>
-                                    
-                                    <div class="slds-form-element">
-                                        <label class="slds-form-element__label">
-                                            {!$ObjectType.Contact.Fields.MobilePhone.Label}
-                                        </label>
-                                        <div class="slds-form-element__control">
-                                            <apex:inputField value="{!newContact.MobilePhone}" styleClass="slds-input" html-placeholder="eg. 021 123 456" />
-                                        </div>
-                                    </div>
 
                                     <div class="slds-form-element">
                                         <apex:commandButton action="{!createContact}" value="Create" styleClass="slds-button slds-button--brand" status="loading" reRender="pageMessages, newContactForm" />
