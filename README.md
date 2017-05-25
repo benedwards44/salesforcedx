@@ -4,6 +4,15 @@ Example code for a Salesforce DX project
 This framework has been copied from the Salesforce example:
 https://github.com/forcedotcom/sfdx-simple
 
+## Resoures
+- [FAQ!](https://drive.google.com/open?id=0B7NONLPaWyiWbU5oa1JaWE80WTQ)
+- [Resources!](https://drive.google.com/open?id=0B7NONLPaWyiWWTFGRkJJaGtMVUU)
+- [Setup Guide!](https://drive.google.com/open?id=0B7NONLPaWyiWSDRHeGhxQnA5SVU)
+- [Developer Guide!](https://drive.google.com/open?id=0B7NONLPaWyiWenlOckh0X214dXc)
+- [CLI Command Reference!](https://drive.google.com/open?id=0B7NONLPaWyiWR1JmSFFPc19KZnM)
+- [Presentation Slides!](https://docs.google.com/presentation/d/1w6cEPwo-kYViaUkKWSOfQ_c5QWAVVgTLpkQaZ5H84UQ/edit?usp=sharing)
+
+
 ## Set Up the Developer Workspace
 
 Our first goal is to set up a developer workspace which we'll use to modify our application. It starts by cloning the repository. Use the command ...
@@ -67,10 +76,4 @@ Run Test Suite
 * **.project**:  Required by the Eclipse IDE.  Describes the Eclipse project. 
 
 
-## Example commands
 
-Create the org with alias
-	sfdx force:org:create -a DevMeetupOrg -s -f config/workspace-scratch-def.json
-
-Load data
-	
