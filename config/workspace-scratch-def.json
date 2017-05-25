@@ -1,8 +1,9 @@
 {
   "Company": "NZ Developer Meetup",
   "Country": "NZ",
-  "LastName": "lastnane",
-  "Email": "ben@nzdevelopermeetup.com",
+  "FirstName": "Ben",
+  "LastName": "Edwards",
+  "Email": "ben@edwards.nz",
   "Edition": "Developer",
   "OrgPreferences" : {
     "S1DesktopEnabled" : true
