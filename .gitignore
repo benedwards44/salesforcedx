@@ -6,4 +6,5 @@
 node_modules
 .idea
 
+aggregated_results.html
 basis-apex
