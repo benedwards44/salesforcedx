@@ -5,12 +5,12 @@ This framework has been copied from the Salesforce example:
 https://github.com/forcedotcom/sfdx-simple
 
 ## Resoures
-- [FAQ!](https://drive.google.com/open?id=0B7NONLPaWyiWbU5oa1JaWE80WTQ)
-- [Resources!](https://drive.google.com/open?id=0B7NONLPaWyiWWTFGRkJJaGtMVUU)
-- [Setup Guide!](https://drive.google.com/open?id=0B7NONLPaWyiWSDRHeGhxQnA5SVU)
-- [Developer Guide!](https://drive.google.com/open?id=0B7NONLPaWyiWenlOckh0X214dXc)
-- [CLI Command Reference!](https://drive.google.com/open?id=0B7NONLPaWyiWR1JmSFFPc19KZnM)
-- [Presentation Slides!](https://docs.google.com/presentation/d/1w6cEPwo-kYViaUkKWSOfQ_c5QWAVVgTLpkQaZ5H84UQ/edit?usp=sharing)
+- [FAQ](https://drive.google.com/open?id=0B7NONLPaWyiWbU5oa1JaWE80WTQ)
+- [Resources](https://drive.google.com/open?id=0B7NONLPaWyiWWTFGRkJJaGtMVUU)
+- [Setup Guide](https://drive.google.com/open?id=0B7NONLPaWyiWSDRHeGhxQnA5SVU)
+- [Developer Guide](https://drive.google.com/open?id=0B7NONLPaWyiWenlOckh0X214dXc)
+- [CLI Command Reference](https://drive.google.com/open?id=0B7NONLPaWyiWR1JmSFFPc19KZnM)
+- [Presentation Slides](https://docs.google.com/presentation/d/1w6cEPwo-kYViaUkKWSOfQ_c5QWAVVgTLpkQaZ5H84UQ/edit?usp=sharing)
 
 
 ## Set Up the Developer Workspace
