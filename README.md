@@ -48,7 +48,11 @@ Load data
 
 View Data
 
-	sfdx force:data xxx
+	sfdx force:data:record:get -s Account -i 0013D000002kR5qQAE
+
+Update Data
+
+    sfdx force:data:record:update -s Account -i 0013D000002kR5qQAE -v Name=Ben
 
 Run Test Suite
 
